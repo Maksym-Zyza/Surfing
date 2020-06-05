@@ -73,10 +73,12 @@ body {
 }
 
 /* Recent Reviews */
-.reviews {
+.reviews-inline-blok {
   width: 600px;
-  height: 435px;
+  height: 740px;
   background-color: beige;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .reviews-title {
@@ -135,4 +137,28 @@ body {
   line-height: 31px;
   margin-bottom: 22px;
   margin-left: 152px;
+}
+
+.line1 {
+  border: none;
+  position: absolute;
+  width: 263px;
+  height: 1px;
+  left: 16px;
+  margin-left: 152px;
+  margin-top: 10px;
+  background: #e7e7e7;
+}
+
+.user-videos {
+  height: 29px;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0.29px;
+  margin-top: 240px;
+  margin-bottom: 50px;
+  margin-left: 152px;
+  box-sizing: border-box;
 }
